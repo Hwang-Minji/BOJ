@@ -14,8 +14,7 @@ void dfs(int cnt, int k, int sum) {
 	if (sum > 100) return;
 	if (cnt == 7) {
 		if (sum == 100) {
-			for (int i = 0; i < 7; i++) 
-				printf("%d\n", arr[ans[i]]);
+			for (int i = 0; i < 7; i++) printf("%d\n", arr[ans[i]]);
 			flag = true;
 		}
 		return;
@@ -28,8 +27,7 @@ void dfs(int cnt, int k, int sum) {
 	}
 }
 int main() {
-	for (int i = 0; i < N; i++) 
-		scanf("%d", &arr[i]);
+	for (int i = 0; i < N; i++) scanf("%d", &arr[i]);
 
 	sort(arr, arr + N);
 	
