@@ -6,7 +6,6 @@ using namespace std;
 #define N 12
 int n;
 
-
 int main() {
 	int tc;
 	scanf("%d", &tc);
